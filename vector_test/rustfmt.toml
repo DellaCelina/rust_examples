@@ -1,0 +1,50 @@
+#Configuration Options:
+#                    max_width <unsigned integer> Default: 100
+#                              Maximum width of each line
+#
+#                    hard_tabs <boolean> Default: false
+#                              Use tab characters for indentation, spaces for alignment
+#
+#                   tab_spaces <unsigned integer> Default: 4
+#                              Number of spaces per tab
+#
+#                newline_style [Auto|Windows|Unix|Native] Default: Auto
+#                              Unix or Windows line endings
+#
+#         use_small_heuristics [Off|Max|Default] Default: Default
+#                              Whether to use different formatting for items and expressions if they satisfy a heuristic notion of 'small'
+#
+#              reorder_imports <boolean> Default: true
+#                              Reorder import and extern crate statements alphabetically
+#
+#              reorder_modules <boolean> Default: true
+#                              Reorder module statements alphabetically in group
+#
+#         remove_nested_parens <boolean> Default: true
+#                              Remove nested parens
+#
+#      match_arm_leading_pipes [Always|Never|Preserve] Default: Never
+#                              Determines whether leading pipes are emitted on match arms
+#
+#               fn_args_layout [Compressed|Tall|Vertical] Default: Tall
+#                              Control the layout of arguments in a function
+#
+#                      edition [2015|2018] Default: 2015
+#                              The edition of the parser (RFC 2052)
+#
+#                merge_derives <boolean> Default: true
+#                              Merge multiple `#[derive(...)]` into a single one
+#
+#            use_try_shorthand <boolean> Default: false
+#                              Replace uses of the try! macro by the ? shorthand
+#
+#     use_field_init_shorthand <boolean> Default: false
+#                              Use field initialization shorthand if possible
+#
+#           force_explicit_abi <boolean> Default: true
+#                              Always print the abi for extern items
+#
+#    print_misformatted_file_names <boolean> Default: false
+#                                  Prints the names of mismatched files that were formatted. Prints the names of files that would be formated when used with `--check` mode. 
+
+max_width=80
